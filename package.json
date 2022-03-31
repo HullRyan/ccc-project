@@ -9,11 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@geist-ui/core": "^2.3.8",
+    "@geist-ui/icons": "^1.0.1",
     "next": "12.1.2",
     "react": "18.0.0",
     "react-dom": "18.0.0"
   },
   "devDependencies": {
+    "@svgr/webpack": "^6.2.1",
     "eslint": "8.12.0",
     "eslint-config-next": "12.1.2"
   }
