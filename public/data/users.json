@@ -1,0 +1,66 @@
+[
+	{
+		"name": "Daniel Hoppe",
+		"photo": "https://drive.google.com/uc?id=1Uf7Ibi4TLSgfgR4BhRPyEAMOmmwp0XgK",
+		"user": "da_hopper",
+		"bio": "Photographer, lover of nature and technology.",
+        "persona": "true",
+		"location": "35.299996, -80.731659"
+	},
+	{
+		"name": "Douglas Kautzer",
+		"photo": "https://drive.google.com/uc?id=1_LnX1UeNB82iUxegPCUAFoAw8MalQpp1",
+		"user": "dkautzer58",
+		"bio": "Grandfather, father, and son, I love to see my family.",
+        "persona": "true",
+		"location": "35.277857, -80.68222"
+	},
+	{
+		"name": "Kathryn Wunsch",
+		"photo": "https://i.picsum.photos/id/104/3840/2160.jpg?hmac=Rv0qxBiYb65Htow4mdeDlyT5kLM23Z2cDlN53YYldZU",
+		"user": "kathrynwunsch",
+		"bio": "Free spirit. Gemini.",
+        "persona": "false",
+		"location": "35.368335, -80.732002"
+	},
+	{
+		"name": "Gabrielle Pfannerstill",
+		"photo": "https://i.picsum.photos/id/1044/4032/2268.jpg?hmac=BXmoMkaurlzpTLYQupXLipcmI1sFbgT5sIz98Ob5VZE",
+		"user": "gabriellepfannerstill",
+		"bio": "Lover of the great outdoors and the great city.",
+        "persona": "false",
+		"location": "35.32493, -80.658531"
+	},
+	{
+		"name": "Rickey Hoppe",
+		"photo": "https://drive.google.com/uc?id=1DXbSF5YzwcNQwPcFzfdelzrLz3KtRwDr",
+		"user": "rhoppe",
+		"bio": "Class of 2020. I love to travel and explore, looking to start my career as a professional.",
+        "persona": "true",
+		"location": "35.250105, -80.785217"
+	},
+	{
+		"name": "Katlyn Schoen",
+		"photo": "https://i.picsum.photos/id/1011/5472/3648.jpg?hmac=Koo9845x2akkVzVFX3xxAc9BCkeGYA9VRVfLE4f0Zzk",
+		"user": "katschoen",
+		"bio": "Kayaker, swimmer.",
+        "persona": "false",
+		"location": "35.265804, -80.747452"
+	},
+	{
+		"name": "Chelsea D'Amore",
+		"photo": "https://drive.google.com/uc?id=1G2t5R09efmUpbr0-DqWuhcrgycuAewar",
+		"user": "cdamore",
+        "bio": "Nurse, statistical informer.",
+        "persona": "true",
+        "location": "35.298315, -80.79895"
+	},
+    {
+        "name": "Willie Schmitt",
+        "photo": "https://i.picsum.photos/id/1025/4951/3301.jpg?hmac=_aGh5AtoOChip_iaMo8ZvvytfEojcgqbCH7dzaz-H8Y",
+        "user": "willschmitt",
+        "bio": "Pug owner, dog lover.",
+        "persona": "false",
+        "location": "35.299435, -80.693808"
+    }
+]

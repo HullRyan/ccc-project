@@ -1,31 +1,79 @@
 [
     {
-      "name": "Douglas Kautzer",
-      "photo": "https://drive.google.com/uc?id=1_LnX1UeNB82iUxegPCUAFoAw8MalQpp1",
+      "post_id": "1",
+      "user": "dkautzer58",
       "title": "Under the weather",
-      "time": "4hrs ago",
-      "body": "Feeling better today, tested negative yesterday as well as I just got the results. Probably just spring allergies!"
+      "time": "4hrs",
+      "body": "Feeling better today, tested negative yesterday as well as I just got the results. Probably just spring allergies!",
+      "likes": "2",
+      "comments": [
+        {
+          "user": "kathrynwunsch",
+          "body": "That's great! I'm so glad you're doing well.",
+          "likes": "1",
+          "liked": "true"
+        },
+        {
+          "user": "gabriellepfannerstill",
+          "body": "Very nice! Hope to see you soon!",
+          "likes": "1",
+          "liked": "true"
+        }
+    ]
     },
     {
-      "name": "Rickey Hoppe",
-      "photo": "https://drive.google.com/uc?id=1DXbSF5YzwcNQwPcFzfdelzrLz3KtRwDr",
+      "post_id": "2",
+      "user": "rhoppe",
       "title": "Can get someone groceries if needed!",
-      "time": "8hrs ago",
-      "body": "Feeling better today, tested negative yesterday as well as I just got the results. Probably just spring allergies!"
+      "time": "8hrs",
+      "body": "If anybody needs groceries, I can help! I'm a big fan of the grocery store at the corner of the street. I can get them for you!",
+      "likes": "13",
+      "comments": [
+        {
+          "user": "katschoen",
+          "body": "I could use some help!",
+          "likes": "3",
+          "liked": "false"
+        },
+        {
+          "user": "da_hopper",
+          "body": "I'm available as well! I can help!",
+          "likes": "5",
+          "liked": "true"
+        }
+      ]
     },
     {
-      "name": "Chelsea D'Amore",
-      "photo": "https://drive.google.com/uc?id=1G2t5R09efmUpbr0-DqWuhcrgycuAewar",
+      "post_id": "3",
+      "user": "cdamore",
       "title": "The rates have gone down recently",
-      "time": "1 day ago",
-      "body": "Feeling better today, tested negative yesterday as well as I just got the results. Probably just spring allergies!"
+      "time": "1 day",
+      "body": "Looking at the current data and trends, it is safe to say our community is doing very well compared to neighboring counties.",
+      "likes": "28",
+      "comments": [
+        {
+          "user": "willschmitt",
+          "body": "Thank you for the update!",
+          "likes": "1",
+          "liked": "false"
+        }
+      ]
     },
     {
-      "name": "Daniel Hoppe",
-      "photo": "https://drive.google.com/uc?id=1Uf7Ibi4TLSgfgR4BhRPyEAMOmmwp0XgK",
-      "title": "Feeling better today",
-      "time": "2 days ago",
-      "body": "Feeling better today, tested negative yesterday as well as I just got the results. Probably just spring allergies!"
+      "post_id": "4",
+      "user": "da_hopper",
+      "title": "I'm looking for a new job!",
+      "time": "2 days",
+      "body": "Looking for a new job, would love to hear about any opportunities!",
+      "likes": "9",
+      "comments": [
+        {
+          "user": "cdamore",
+          "body": "If you're looking for a new job, I can help!",
+          "likes": "2",
+          "liked": "true"
+        }
+      ]
     }
   ]
   

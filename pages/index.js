@@ -5,7 +5,7 @@ import { Spacer } from '@geist-ui/core';
 export default function Home() {
   return (
     <div>
-      <Post />
+      <Post slug={"test"}/>
             <style jsx>
                 {`
 
