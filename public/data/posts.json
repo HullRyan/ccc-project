@@ -1,77 +1,93 @@
 [
     {
-      "post_id": "1",
+      "id": "1",
       "user": "dkautzer58",
       "title": "Under the weather",
       "time": "4hrs",
       "body": "Feeling better today, tested negative yesterday as well as I just got the results. Probably just spring allergies!",
       "likes": "2",
+      "liked": false,
       "comments": [
         {
+          "id": "1",
           "user": "kathrynwunsch",
+          "time": "2hrs",
           "body": "That's great! I'm so glad you're doing well.",
           "likes": "1",
-          "liked": "true"
+          "liked": true
         },
         {
+          "id": "2",
           "user": "gabriellepfannerstill",
+          "time": "1hr",
           "body": "Very nice! Hope to see you soon!",
           "likes": "1",
-          "liked": "true"
+          "liked": true
         }
     ]
     },
     {
-      "post_id": "2",
+      "id": "2",
       "user": "rhoppe",
       "title": "Can get someone groceries if needed!",
       "time": "8hrs",
       "body": "If anybody needs groceries, I can help! I'm a big fan of the grocery store at the corner of the street. I can get them for you!",
       "likes": "13",
+      "liked": true,
       "comments": [
         {
+          "id": "1",
           "user": "katschoen",
+          "time": "5hrs",
           "body": "I could use some help!",
           "likes": "3",
-          "liked": "false"
+          "liked": false
         },
         {
+          "id": "2",
           "user": "da_hopper",
+          "time": "4hrs",
           "body": "I'm available as well! I can help!",
           "likes": "5",
-          "liked": "true"
+          "liked": true
         }
       ]
     },
     {
-      "post_id": "3",
+      "id": "3",
       "user": "cdamore",
       "title": "The rates have gone down recently",
       "time": "1 day",
       "body": "Looking at the current data and trends, it is safe to say our community is doing very well compared to neighboring counties.",
       "likes": "28",
+      "liked": true,
       "comments": [
         {
+          "id": "1",
           "user": "willschmitt",
+          "time": "1 day",
           "body": "Thank you for the update!",
           "likes": "1",
-          "liked": "false"
+          "liked": false
         }
       ]
     },
     {
-      "post_id": "4",
+      "id": "4",
       "user": "da_hopper",
       "title": "I'm looking for a new job!",
       "time": "2 days",
       "body": "Looking for a new job, would love to hear about any opportunities!",
       "likes": "9",
+      "liked": false,
       "comments": [
         {
+          "id": "1",
           "user": "cdamore",
+          "time": "1 day",
           "body": "If you're looking for a new job, I can help!",
           "likes": "2",
-          "liked": "true"
+          "liked": true
         }
       ]
     }

@@ -1,59 +1,120 @@
-import { Card, Text, Divider, Code, User } from "@geist-ui/core";
-import { MessageCircle, Heart, HeartFill, FullScreen } from "@geist-ui/icons";
+import { Card, Text, Divider, Spacer, User, Textarea } from "@geist-ui/core";
+import {
+	MessageCircle,
+	Heart,
+	HeartFill,
+	FullScreen,
+	Share2,
+} from "@geist-ui/icons";
 import { useTheme } from "@geist-ui/core";
 import Link from "next/link";
 import { useState } from "react";
+import Comment from "../components/Comment";
+import posts from "../public/data/posts.json";
+import users from "../public/data/users.json";
 
 export default function Post(props) {
 	//prop for "expanded" view to reuse component for both expanded and non-expanded view pages
 	const { palette } = useTheme();
-	const [liked, setLiked] = useState(true);
 
 	function handleLike() {
 		setLiked(!liked);
 	}
 
+	const expanded = props.expanded;
+	const post_index = props.slug;
+	const post = posts.find((post) => post.id === post_index);
+	const user = users.find((user) => user.id === post.user);
+
+	const [liked, setLiked] = useState(post.liked);
+
+	function getUser(comment_user_id) {
+		return users.find((user) => user.id === comment_user_id);
+	}
+
 	return (
 		<div>
-			{console.log(props)}
-			<Card width="100%">
-				<Card.Content>
-					<div className="post-heading">
-						<User src="https://unix.bio/assets/avatar.png" name="Witt">
-							<User.Link href="https://twitter.com/echo_witt">
-								@echo_witt
-							</User.Link>
-						</User>
-						<div className="post-time">12hrs</div>
+			{!expanded ? (
+				<Card width="100%">
+					<Card.Content>
+						<div className="post-heading">
+							<User src={user.photo} name={user.name}>
+								<Link href="/profile/[slug]" as={`/profile/${user.id}`}>
+									<a>@{user.id}</a>
+								</Link>
+							</User>
+							<div className="post-time">{post.time}</div>
+						</div>
+						<Divider />
+						<Text h4>{post.title}</Text>
+						<Text>{post.body}</Text>
+						<div className="post-buttons">
+							<div className="post-footer-children">
+								<div onClick={handleLike} className="post-button red">
+									{liked ? <HeartFill color={palette.error} /> : <Heart />}
+								</div>
+								<div>{liked ? parseInt(post.likes) + 1 : post.likes}</div>
+							</div>
+							<div>
+								<div className="post-footer-children">
+									<Link href="/posts/[slug]" as={`/posts/${post.id}`}>
+										<a className="post-button blue">
+											<MessageCircle />
+										</a>
+									</Link>
+									<div>{post.comments.length}</div>
+								</div>
+							</div>
+						</div>
+					</Card.Content>
+				</Card>
+			) : (
+				<div>
+					<Card width="100%">
+						<Card.Content>
+							<div className="post-heading">
+								<User src={user.photo} name={user.name}>
+									<Link href="/profile/[slug]" as={`/profile/${user.id}`}>
+										<a>@{user.id}</a>
+									</Link>
+								</User>
+								<div className="post-time">{post.time}</div>
+							</div>
+							<Divider />
+							<Text h4>{post.title}</Text>
+							<Text>{post.body}</Text>
+							<div className="post-buttons">
+								<div className="post-footer-children">
+									<div onClick={handleLike} className="post-button red">
+										{liked ? <HeartFill color={palette.error} /> : <Heart />}
+									</div>
+									<div>{liked ? parseInt(post.likes) + 1 : post.likes}</div>
+								</div>
+							</div>
+						</Card.Content>
+					</Card>
+					<div className="post-comments">
+						{post.comments.map((comment) => (
+							<div key={comment.id}>
+								<Spacer />
+								<Comment comment={comment} user={getUser(comment.user)} />
+							</div>
+						))}
 					</div>
 					<Divider />
-					<Text h4>Post Title</Text>
-					<Text>
-						When called in a non-constructor context, Object behaves identically
-						to.
-					</Text>
-					<div className="post-buttons">
-						<div className="post-footer-children">
-							<div onClick={handleLike} className="post-button red">
-								{liked ? <HeartFill color={palette.error} /> : <Heart />}
-							</div>
-							<div>{liked ? 133 : 132}</div>
-						</div>
-						<div>
-							<div className="post-footer-children">
-								<Link href="/posts/[slug]" as={`/posts/${props.slug}`}>
-									<a className="post-button blue">
-										<MessageCircle />
-									</a>
-								</Link>
-								<div>2</div>
-							</div>
-						</div>
+					<div className="post-comment-input">
+						<Textarea placeholder="Reply" width="100%"/>
 					</div>
-				</Card.Content>
-			</Card>
+				</div>
+			)}
 			<style jsx global>
 				{`
+					.post-comment-input {
+						height: 100%;
+						width: 100%;
+						background-color: #fff;
+						border-radius: 6px;
+					}
 					.post-heading {
 						display: flex;
 						justify-content: space-between;

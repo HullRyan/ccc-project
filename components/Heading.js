@@ -8,6 +8,10 @@ export default function Heading() {
 	const { palette } = useTheme();
 	const [drawerOpen, setDrawerOpen] = useState(false);
 
+	function closeDrawer() {
+		setDrawerOpen(false);
+	}
+
 	return (
 		<div className="heading">
 			<div className="drawer-button">
@@ -26,10 +30,16 @@ export default function Heading() {
 				<Drawer.Content>
 					<div className="drawer-links">
 						<Link href="/">
-							<a>Home</a>
+							<a onClick={closeDrawer}>Home</a>
 						</Link>
 						<Link href="/login">
-							<a>Login</a>
+							<a onClick={closeDrawer}>Login</a>
+						</Link>
+						<Link href="/posts">
+							<a onClick={closeDrawer}>Posts</a>
+						</Link>
+						<Link href="/profile">
+							<a onClick={closeDrawer}>Profile</a>
 						</Link>
 					</div>
 				</Drawer.Content>

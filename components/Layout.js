@@ -23,6 +23,7 @@ export default function Layout({ children }) {
 						background-color: ${palette.accents_1};
 						padding: 3rem calc(1.34 * 16px) 0 calc(1.34 * 16px);
 						margin: 0rem auto 0 auto;
+						overflow: auto;
 					}
 				`}
 			</style>

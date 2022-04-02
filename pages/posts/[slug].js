@@ -1,16 +1,17 @@
 import BackButton from "../../components/BackButton";
+import Post from "../../components/Post";
 import { useRouter } from "next/router";
 
-const Post = () => {
+const PostPage = () => {
 	const router = useRouter();
 	const { slug } = router.query;
 
 	return (
 		<>
-			<p>Post: {slug}</p>
+			<Post slug={slug} expanded={true}/>
             <BackButton />
 		</>
 	);
 };
 
-export default Post;
+export default PostPage;
