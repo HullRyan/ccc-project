@@ -1,6 +1,6 @@
 import Profile from '../../components/Profile';
 import { Spacer } from '@geist-ui/core';
-import users from '../../public/data/users.json';
+import users from '../../data/users.json';
 
 export default function ProfileIndex() {
 

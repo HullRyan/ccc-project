@@ -1,6 +1,6 @@
 import Post from '../../components/Post';
 import { Spacer } from '@geist-ui/core';
-import posts from '../../public/data/posts.json';
+import posts from '../../data/posts.json';
 
 export default function Posts() {
   return (

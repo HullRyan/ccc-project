@@ -10,8 +10,8 @@ import { useTheme } from "@geist-ui/core";
 import Link from "next/link";
 import { useState } from "react";
 import Comment from "../components/Comment";
-import posts from "../public/data/posts.json";
-import users from "../public/data/users.json";
+import posts from "../data/posts.json";
+import users from "../data/users.json";
 
 export default function Post(props) {
 	//prop for "expanded" view to reuse component for both expanded and non-expanded view pages

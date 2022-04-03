@@ -1,7 +1,7 @@
 import BackButton from "../../components/BackButton";
 import Profile from "../../components/Profile";
 import { useRouter } from "next/router";
-import users from '../../public/data/users.json';
+import users from '../../data/users.json';
 
 const ProfilePage = () => {
 	const router = useRouter();
