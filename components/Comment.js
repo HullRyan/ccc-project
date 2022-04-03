@@ -14,14 +14,15 @@ export default function Comment(props) {
 	//prop for "expanded" view to reuse component for both expanded and non-expanded view pages
 	const { palette } = useTheme();
 
+	const comment = props.comment;
+    const user = props.user;
+	const [liked, setLiked] = useState(comment?.liked);
+
+	if(comment != undefined && user != undefined) {
+
 	function handleLike() {
 		setLiked(!liked);
 	}
-
-	const comment = props.comment;
-    const user = props.user;
-
-	const [liked, setLiked] = useState(comment.liked);
 
 	return (
 		<div>
@@ -93,4 +94,7 @@ export default function Comment(props) {
 			</style>
 		</div>
 	);
+				} else {
+					return (<>No props passed to comment</>)
+				}
 }

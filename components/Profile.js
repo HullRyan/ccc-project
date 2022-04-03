@@ -2,14 +2,16 @@
 
 export default function Profile(props) {
 
-    const user = props.user;
-
+    if(props.user) {
+        const user = props.user;
+    }
+    
     return(
         <>
-        {console.log(props)}
+        {props.user ? (<>{console.log(props)}
         <div>
             This is the profile component
-        </div>
+        </div></>):(<div>No props passed to profile component</div>)}
         <style jsx>
             {`
             .test {

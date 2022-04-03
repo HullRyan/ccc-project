@@ -11,8 +11,11 @@ const ProfilePage = () => {
 
 	return (
 		<>
+		{user ? (<>
 			<Profile user={user}/>
             <BackButton />
+			</>):(<div>User not found</div>)}
+			
 		</>
 	);
 };
