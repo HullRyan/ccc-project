@@ -11,7 +11,7 @@ const nextConfig = {
 		return config;
 	},
 	images: {
-		domains: ["upload.wikimedia.org"],
+		domains: ["upload.wikimedia.org", "drive.google.com", "i.picsum.photos"],
 	},
 };
 

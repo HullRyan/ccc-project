@@ -4,7 +4,8 @@
 		"photo": "https://drive.google.com/uc?id=1Uf7Ibi4TLSgfgR4BhRPyEAMOmmwp0XgK",
 		"id": "da_hopper",
 		"bio": "Photographer, lover of nature and technology.",
-        "persona": "true",
+        "persona": true,
+		"added": true,
 		"location": "35.298315, -80.734406",
 		"lat": 35.298315,
 		"lng": -80.734406
@@ -14,7 +15,8 @@
 		"photo": "https://drive.google.com/uc?id=1_LnX1UeNB82iUxegPCUAFoAw8MalQpp1",
 		"id": "dkautzer58",
 		"bio": "Grandfather, father, and son, I love to see my family.",
-        "persona": "true",
+        "persona": true,
+		"added": false,
 		"location": "35.277857, -80.68222",
 		"lat": 35.277857,
 		"lng": -80.68222
@@ -24,7 +26,8 @@
 		"photo": "https://i.picsum.photos/id/104/3840/2160.jpg?hmac=Rv0qxBiYb65Htow4mdeDlyT5kLM23Z2cDlN53YYldZU",
 		"id": "kathrynwunsch",
 		"bio": "Free spirit. Gemini.",
-        "persona": "false",
+        "persona": false,
+		"added": true,
 		"location": "35.368335, -80.732002",
 		"lat": 35.368335,
 		"lng": -80.732002
@@ -34,7 +37,8 @@
 		"photo": "https://i.picsum.photos/id/1044/4032/2268.jpg?hmac=BXmoMkaurlzpTLYQupXLipcmI1sFbgT5sIz98Ob5VZE",
 		"id": "gabriellepfannerstill",
 		"bio": "Lover of the great outdoors and the great city.",
-        "persona": "false",
+        "persona": false,
+		"added": false,
 		"location": "35.32493, -80.658531",
 		"lat": 35.32493,
 		"lng": -80.658531
@@ -44,7 +48,8 @@
 		"photo": "https://drive.google.com/uc?id=1DXbSF5YzwcNQwPcFzfdelzrLz3KtRwDr",
 		"id": "rhoppe",
 		"bio": "Class of 2020. I love to travel and explore, looking to start my career as a professional.",
-        "persona": "true",
+        "persona": true,
+		"added": true,
 		"location": "35.250105, -80.785217",
 		"lat": 35.250105,
 		"lng": -80.785217
@@ -54,7 +59,8 @@
 		"photo": "https://i.picsum.photos/id/1011/5472/3648.jpg?hmac=Koo9845x2akkVzVFX3xxAc9BCkeGYA9VRVfLE4f0Zzk",
 		"id": "katschoen",
 		"bio": "Kayaker, swimmer.",
-        "persona": "false",
+        "persona": false,
+		"added": false,
 		"location": "35.265804, -80.747452",
 		"lat": 35.265804,
 		"lng": -80.747452
@@ -64,7 +70,8 @@
 		"photo": "https://drive.google.com/uc?id=1G2t5R09efmUpbr0-DqWuhcrgycuAewar",
 		"id": "cdamore",
         "bio": "Nurse, statistical informer.",
-        "persona": "true",
+        "persona": true,
+		"added": true,
         "location": "35.298315, -80.79895",
 		"lat": 35.298315,
 		"lng": -80.79895
@@ -74,7 +81,8 @@
         "photo": "https://i.picsum.photos/id/1025/4951/3301.jpg?hmac=_aGh5AtoOChip_iaMo8ZvvytfEojcgqbCH7dzaz-H8Y",
         "id": "willschmitt",
         "bio": "Pug owner, dog lover.",
-        "persona": "false",
+        "persona": false,
+		"added": false,
         "location": "35.299435, -80.693808",
 		"lat": 35.299435,
 		"lng": -80.693808
@@ -84,7 +92,8 @@
 		"photo": "https://i.picsum.photos/id/1025/4951/3301.jpg?hmac=_aGh5AtoOChip_iaMo8ZvvytfEojcgqbCH7dzaz-H8Y",
 		"id": "kschmitt",
 		"bio": "Pug owner, dog lover.",
-		"persona": "false",
+		"persona": false,
+		"added": true,
 		"location": "35.299435, -80.693808",
 		"lat": 35.299435,
 		"lng": -80.693808
@@ -94,7 +103,8 @@
         "photo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/UNCCNorm2.jpg",
         "id": "ninernorm",
         "bio": "Face of THE Univerity of North Carolina at Charlotte. Go Niners!", 
-        "persona": "true",
+        "persona": true,
+		"added": false,
         "location": "[35.30651, -80.734277]",
 		"lat": 35.30651,
 		"lng": -80.734277

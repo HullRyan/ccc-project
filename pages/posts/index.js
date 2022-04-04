@@ -8,7 +8,7 @@ export default function Posts() {
         {
             posts.map(post => (
                 <div key={post.id}>
-                    <Post slug={post.id} expanded={false}/>
+                    <Post slug={post.id} post={post} expanded={false}/>
                     <Spacer y={2}/>
                 </div>
             )

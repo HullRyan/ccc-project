@@ -17,11 +17,13 @@ export default function Layout({ children }) {
 						width: 100%;
 						height: 100%;
 						background-color: ${palette.accents_2};
-						max-height: 950px;
-						max-width: 400px;
+						max-height: 812px;
+						max-width: 375px;
+						overflow: hidden;
 					}
 					.body {
-						height: calc(100vh - 5rem);
+						height: 100%;
+						max-height: calc(812px - 5rem);
 						border-radius: 3rem 3rem 0 0;
 						background-color: ${palette.accents_1};
 						padding: 3rem calc(1.34 * 16px) 0 calc(1.34 * 16px);

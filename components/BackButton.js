@@ -31,7 +31,7 @@ export default function BackButton() {
 						display: flex;
 						justify-content: center;
 						border-radius: 500px 500px 0 0;
-						z-index: 100;
+						z-index: 1499;
 					}
                     .bottom-button-container:hover {
                         cursor: pointer;

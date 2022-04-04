@@ -18,7 +18,7 @@ export default function Post(props) {
 
 	const expanded = props.expanded;
 	const post_index = props.slug;
-	const [liked, setLiked] = useState(false);
+	const [liked, setLiked] = useState(props?.post?.liked);
 
 	if (post_index != undefined && expanded != undefined) {
 		const post = posts?.find((post) => post.id === post_index);
@@ -28,17 +28,12 @@ export default function Post(props) {
 			setLiked(!liked);
 		}
 
-		function checkLiked() {
-			setLiked(post.liked);
-		}
-
 		function getUser(comment_user_id) {
 			return users?.find((user) => user.id === comment_user_id);
 		}
 		
 		return (
 			<>
-				{checkLiked}
 				{!expanded ? (
 					<Card width="100%">
 						<Card.Content>

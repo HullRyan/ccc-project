@@ -31,7 +31,7 @@ export default function Map(props) {
 				<Marker position={center} draggable={true} animate={true}>
 					<Popup>Hey ! I live here</Popup>
 				</Marker>
-                <Circle center={center} radius={900} fill={profileFill} />
+                <Circle center={center} radius={700} fill={profileFill} />
 			</MapContainer>
 		);
 	} else {
