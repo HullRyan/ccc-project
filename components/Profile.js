@@ -12,7 +12,7 @@ import Image from "next/image";
 import dynamic from "next/dynamic";
 import { serverRuntimeConfig } from "../next.config";
 
-const MapWithNoSSR = dynamic(() => import("../components/map"), {
+const MapWithNoSSR = dynamic(() => import("../components/Map"), {
     ssr: false,
 });
 
