@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Modal } from "@geist-ui/core";
 import survey from './../pages/survey';
+import Link from "next/link";
 export default function Survey() {
 	const [counter, setCounter] = useState(0);
 	const [visible, setVisible] = useState(false);
@@ -174,7 +175,11 @@ export default function Survey() {
 				<Modal.Action passive onClick={() => setVisible(false)}>
 					Okay
 				</Modal.Action>
-				<Modal.Action>See nearby pharmacies</Modal.Action>
+				<Modal.Action>
+                    <Link href="/map">
+                        <a>See nearby pharmacies</a>
+                    </Link>
+                </Modal.Action>
 			</Modal>
 			<Modal visible={visibleTwo} onClose={closeHandlerTwo}>
 				<Modal.Title>Risk Low</Modal.Title>
