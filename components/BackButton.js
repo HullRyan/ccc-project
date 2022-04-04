@@ -14,7 +14,7 @@ export default function BackButton() {
 			<style jsx>
 				{`
 					.bottom-button-container {
-						position: fixed;
+						position: absolute;
 						bottom: 0;
 						right: calc(1.34*16px);
 						width: 3rem;

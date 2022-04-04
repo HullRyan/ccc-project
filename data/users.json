@@ -5,7 +5,9 @@
 		"id": "da_hopper",
 		"bio": "Photographer, lover of nature and technology.",
         "persona": "true",
-		"location": "35.298315, -80.734406"
+		"location": "35.298315, -80.734406",
+		"lat": 35.298315,
+		"lng": -80.734406
 	},
 	{
 		"name": "Douglas Kautzer",
@@ -13,7 +15,9 @@
 		"id": "dkautzer58",
 		"bio": "Grandfather, father, and son, I love to see my family.",
         "persona": "true",
-		"location": "35.277857, -80.68222"
+		"location": "35.277857, -80.68222",
+		"lat": 35.277857,
+		"lng": -80.68222
 	},
 	{
 		"name": "Kathryn Wunsch",
@@ -21,7 +25,9 @@
 		"id": "kathrynwunsch",
 		"bio": "Free spirit. Gemini.",
         "persona": "false",
-		"location": "35.368335, -80.732002"
+		"location": "35.368335, -80.732002",
+		"lat": 35.368335,
+		"lng": -80.732002
 	},
 	{
 		"name": "Gabrielle Pfannerstill",
@@ -29,7 +35,9 @@
 		"id": "gabriellepfannerstill",
 		"bio": "Lover of the great outdoors and the great city.",
         "persona": "false",
-		"location": "35.32493, -80.658531"
+		"location": "35.32493, -80.658531",
+		"lat": 35.32493,
+		"lng": -80.658531
 	},
 	{
 		"name": "Rickey Hoppe",
@@ -37,7 +45,9 @@
 		"id": "rhoppe",
 		"bio": "Class of 2020. I love to travel and explore, looking to start my career as a professional.",
         "persona": "true",
-		"location": "35.250105, -80.785217"
+		"location": "35.250105, -80.785217",
+		"lat": 35.250105,
+		"lng": -80.785217
 	},
 	{
 		"name": "Katlyn Schoen",
@@ -45,7 +55,9 @@
 		"id": "katschoen",
 		"bio": "Kayaker, swimmer.",
         "persona": "false",
-		"location": "35.265804, -80.747452"
+		"location": "35.265804, -80.747452",
+		"lat": 35.265804,
+		"lng": -80.747452
 	},
 	{
 		"name": "Chelsea D'Amore",
@@ -53,7 +65,9 @@
 		"id": "cdamore",
         "bio": "Nurse, statistical informer.",
         "persona": "true",
-        "location": "35.298315, -80.79895"
+        "location": "35.298315, -80.79895",
+		"lat": 35.298315,
+		"lng": -80.79895
 	},
     {
         "name": "Willie Schmitt",
@@ -61,7 +75,19 @@
         "id": "willschmitt",
         "bio": "Pug owner, dog lover.",
         "persona": "false",
-        "location": "35.299435, -80.693808"
+        "location": "35.299435, -80.693808",
+		"lat": 35.299435,
+		"lng": -80.693808
+	},
+	{
+		"name": "Kathryn Schmitt",
+		"photo": "https://i.picsum.photos/id/1025/4951/3301.jpg?hmac=_aGh5AtoOChip_iaMo8ZvvytfEojcgqbCH7dzaz-H8Y",
+		"id": "kschmitt",
+		"bio": "Pug owner, dog lover.",
+		"persona": "false",
+		"location": "35.299435, -80.693808",
+		"lat": 35.299435,
+		"lng": -80.693808
     },
 	{
         "name": "Norm the Miner",
@@ -69,6 +95,8 @@
         "id": "ninernorm",
         "bio": "Face of THE Univerity of North Carolina at Charlotte. Go Niners!", 
         "persona": "true",
-        "location": "35.30651, -80.734277"
-    }
+        "location": "[35.30651, -80.734277]",
+		"lat": 35.30651,
+		"lng": -80.734277
+	}
 ]

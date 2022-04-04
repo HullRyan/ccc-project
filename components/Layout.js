@@ -11,11 +11,14 @@ export default function Layout({ children }) {
 			<style jsx>
 				{`
 					.page {
+						position: relative;
 						padding: 0;
 						margin: 0;
-						max-width: 100vw;
-						min-height: 100vh;
+						width: 100%;
+						height: 100%;
 						background-color: ${palette.accents_2};
+						max-height: 950px;
+						max-width: 400px;
 					}
 					.body {
 						height: calc(100vh - 5rem);
