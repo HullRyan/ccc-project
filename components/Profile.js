@@ -34,6 +34,7 @@ export default function Profile(props) {
 							src={user.photo}
 							height="200"
 							width="200"
+                            unoptimized={true} 
 						/>
 					</div>
 					<div className="profile-info">
