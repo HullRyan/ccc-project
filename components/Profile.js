@@ -12,10 +12,11 @@ import Image from "next/image";
 import dynamic from "next/dynamic";
 import { serverRuntimeConfig } from "../next.config";
 
+const MapWithNoSSR = dynamic(() => import("../components/map"), {
+    ssr: false,
+});
+
 export default function Profile(props) {
-	const MapWithNoSSR = dynamic(() => import("../components/map"), {
-		ssr: false,
-	});
 
     const { palette } = useTheme();
 
