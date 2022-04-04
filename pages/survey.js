@@ -1,7 +1,9 @@
-export default function Survey() {
+import Survey from "../components/Survey";
+
+export default function survey() {
     return (
         <div>
-        This is the Survey page.
+        <Survey />
                 <style jsx>
                     {`
     

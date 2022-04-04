@@ -49,6 +49,12 @@ export default function Heading() {
 						<Link href="/survey">
 							<a onClick={closeDrawer}>Survey</a>
 						</Link>
+						<Link href="/county">
+							<a onClick={closeDrawer}>County Risk Viewer</a>
+						</Link>
+						<Link href="/map">
+							<a onClick={closeDrawer}>Map</a>
+						</Link>
 					</div>
 			</div>
 			<style jsx global>

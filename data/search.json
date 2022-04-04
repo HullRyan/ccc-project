@@ -1,0 +1,1342 @@
+{
+	"providers": [
+		{
+			"guid": "0b572663-d4cc-46b9-b832-36e7b544830c",
+			"name": "Campus Medical",
+			"address1": "9430 University City Blvd",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28213",
+			"phone": "980-225-7000",
+			"distance": 0.48,
+			"lat": 35.305146,
+			"long": -80.724084,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "00fdbc1d-3ccb-43f2-adcc-496280517e85",
+			"name": "CVS Pharmacy, Inc. #16461",
+			"address1": "8120 University City Blvd",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28213",
+			"phone": "(704) 599-3472",
+			"distance": 1.03,
+			"lat": 35.292578,
+			"long": -80.745866,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "8667570e-193e-4d30-92ea-6c5384aa81ef",
+			"name": "Walgreens Co. #4547",
+			"address1": "8538 N Tryon St",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28262",
+			"phone": "704-547-8551",
+			"distance": 1.03,
+			"lat": 35.30456,
+			"long": -80.749632,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "835bf1f5-ef5a-4b3e-8725-2ac11ab48ae3",
+			"name": "Kidzcare Pediatrics at North Charlotte",
+			"address1": "416 McCullough Dr # 140",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28262",
+			"phone": "704-717-3383",
+			"distance": 1.38,
+			"lat": 35.303443,
+			"long": -80.75615,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "a99a056b-3c2a-4542-b840-7661d37655ba",
+			"name": "Sams Club #10-6540",
+			"address1": "8909 JW Clay Blvd",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28262",
+			"phone": "7045930227",
+			"distance": 1.56,
+			"lat": 35.314672,
+			"long": -80.754525,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "f7bf81c1-22b3-49e2-b6a6-701e4446f1d1",
+			"name": "Walmart Inc #10-2134",
+			"address1": "7735 N Tryon St",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28262",
+			"phone": "7045470525",
+			"distance": 1.57,
+			"lat": 35.295577,
+			"long": -80.758335,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "95fd614e-1097-4873-a94a-9d48f38b3d31",
+			"name": "CVS Pharmacy, Inc. #06518",
+			"address1": "11430 N Tryon St",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28262",
+			"phone": "(704) 717-3276",
+			"distance": 2.46,
+			"lat": 35.334833,
+			"long": -80.714945,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "b6a9a90c-3c0d-4c63-aa76-610ab49aa73e",
+			"name": "Walmart Inc #10-6233",
+			"address1": "11530 N Tryon St",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28262",
+			"phone": "9804288134",
+			"distance": 2.47,
+			"lat": 35.334136,
+			"long": -80.712519,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "20ac1556-2eaa-40ee-8758-9d90bfb59d92",
+			"name": "David's Pharmacy",
+			"address1": "1816 E Arbors Dr #440",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28262",
+			"phone": "980-296-3784",
+			"distance": 2.72,
+			"lat": 35.336633,
+			"long": -80.754349,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "6d6352b0-f6d1-4569-a771-75b2347373de",
+			"name": "Charlotte Community Health Clinic University",
+			"address1": "8401 Medical Plaza Dr #300",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28262",
+			"phone": "704-316-6561",
+			"distance": 2.79,
+			"lat": 35.319,
+			"long": -80.776602,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "6acced40-ea78-4a75-b86a-9a49d79e62d0",
+			"name": "Northeast SeventhDay Adventist Church (Pfizer)  July 29th",
+			"address1": "827 Tom Hunter Rd",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28213",
+			"phone": "704-755-5656",
+			"distance": 3.19,
+			"lat": 35.277967,
+			"long": -80.779934,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "2c1f81a6-2a12-44df-9bbd-b229a213236d",
+			"name": "Harris Teeter Pharmacy #09700220",
+			"address1": "2720 W Mallard Creek Church Rd",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28262",
+			"phone": "(704) 717-7438",
+			"distance": 3.32,
+			"lat": 35.341541,
+			"long": -80.764863,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "0a090aa2-7227-4456-a636-15f203ae0bc4",
+			"name": "Harris Teeter Pharmacy #09700092",
+			"address1": "12190 University City Blvd",
+
+			"city": "Harrisburg",
+			"state": "NC",
+			"zip": "28075",
+			"phone": "(704) 454-9909",
+			"distance": 3.35,
+			"lat": 35.3153,
+			"long": -80.674479,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "51232398-6dbf-45b2-b291-7422c8537c15",
+			"name": "Walgreens Co. #6480",
+			"address1": "2800 W Mallard Creek Church Rd",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28262",
+			"phone": "704-549-1272",
+			"distance": 3.36,
+			"lat": 35.341542,
+			"long": -80.766257,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "eeaa475d-2adc-4a2b-9d00-e3c2edd5db8c",
+			"name": "CVS Pharmacy, Inc. #02559",
+			"address1": "10515 Mallard Creek Rd",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28262",
+			"phone": "(704) 547-9739",
+			"distance": 3.45,
+			"lat": 35.342413,
+			"long": -80.767642,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "7757c386-d38b-4bb2-ba29-4300dc8fc94f",
+			"name": "CVS Pharmacy, Inc. #05463",
+			"address1": "9805 Rocky River Rd",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28215",
+			"phone": "(704) 494-3466",
+			"distance": 3.64,
+			"lat": 35.284121,
+			"long": -80.670968,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "fb085240-e378-493d-8891-ded016cc6415",
+			"name": "Ebenezer Baptist Church  8/7/21 (Pfizer)",
+			"address1": "2020 W Sugar Creek Rd",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28262",
+			"phone": "704-755-5656",
+			"distance": 3.67,
+			"lat": 35.290838,
+			"long": -80.795297,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "c3743579-1b32-42b9-bb19-76c387176633",
+			"name": "Walgreens Co. #11396",
+			"address1": "2200 W Sugar Creek Rd",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28262",
+			"phone": "704-494-4878",
+			"distance": 3.7,
+			"lat": 35.293299,
+			"long": -80.796336,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "1985f437-c149-4896-a9df-e3099637c9a2",
+			"name": "Harris Teeter Pharmacy #09700046",
+			"address1": "9641 Brookdale Dr",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28215",
+			"phone": "(704) 599-8670",
+			"distance": 3.75,
+			"lat": 35.282692,
+			"long": -80.669538,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "f66997d1-bc7e-4687-8321-46e173892746",
+			"name": "CVS Pharmacy, Inc. #07407",
+			"address1": "6110 The Plaza",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28215",
+			"phone": "(704) 532-4186",
+			"distance": 3.92,
+			"lat": 35.247546,
+			"long": -80.751538,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "86d0cc9a-fff1-4da6-a520-0789ee9fb1ca",
+			"name": "Home Office",
+			"address1": "5620 Concord Pkwy S Suite 205",
+
+			"city": "Concord",
+			"state": "NC",
+			"zip": "28027",
+			"phone": "877-829-8261",
+			"distance": 4.09,
+			"lat": 35.350608,
+			"long": -80.690482,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "a354265e-a3d8-405e-bb2a-87b57cf6c22d",
+			"name": "Walgreens Co. #17386",
+			"address1": "3716 W W.T.Harris Blvd",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28269",
+			"phone": "704-598-8773",
+			"distance": 4.21,
+			"lat": 35.334831,
+			"long": -80.794605,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "59239d29-e4c8-43a1-ac10-32b490fe10c3",
+			"name": "Walgreens Co. #4546",
+			"address1": "3080 Milton Rd",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28215",
+			"phone": "704-535-5117",
+			"distance": 4.54,
+			"lat": 35.236488,
+			"long": -80.738851,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "543c56a0-aba0-42e8-9a5a-877f54e547d3",
+			"name": "Walgreens Co. #19066",
+			"address1": "4305 NC-49",
+
+			"city": "Harrisburg",
+			"state": "NC",
+			"zip": "28075",
+			"phone": "704-454-5920",
+			"distance": 4.85,
+			"lat": 35.321575,
+			"long": -80.64908,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "ec317b5a-ffdf-452f-a2af-d4c2339f7aa0",
+			"name": "CVS Pharmacy, Inc. #07054",
+			"address1": "4300 NC-49",
+
+			"city": "Harrisburg",
+			"state": "NC",
+			"zip": "28075",
+			"phone": "(704) 455-6420",
+			"distance": 4.88,
+			"lat": 35.322581,
+			"long": -80.648906,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "7fead92c-9eb3-4fb1-afb5-4b14578c4fcd",
+			"name": "Publix Super Markets Inc. #1555",
+			"address1": "4055 Harris Square Dr",
+
+			"city": "Harrisburg",
+			"state": "NC",
+			"zip": "28075",
+			"phone": "(704) 916-4440",
+			"distance": 4.92,
+			"lat": 35.321654,
+			"long": -80.647832,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "35a0a0b1-f6a7-4453-b429-59bcb10ee726",
+			"name": "1220 Eastway Drive",
+			"address1": "1220 Eastway Dr",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28205",
+			"phone": "704-360-8893",
+			"distance": 5.06,
+			"lat": 35.239263,
+			"long": -80.778095,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "4093750a-5d96-460b-a4f4-3c9ead380f65",
+			"name": "Harris Teeter Pharmacy #09700472",
+			"address1": "8445 Davis Lake Pkwy",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28269",
+			"phone": "(704) 597-7243",
+			"distance": 5.17,
+			"lat": 35.334221,
+			"long": -80.814408,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "35d912d2-2637-440b-b96c-a1f7a9baa301",
+			"name": "Walmart Inc #10-4574",
+			"address1": "5825 Thunder Rd NW",
+
+			"city": "Concord",
+			"state": "NC",
+			"zip": "28027",
+			"phone": "7049792540",
+			"distance": 5.32,
+			"lat": 35.378669,
+			"long": -80.724733,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "06748991-8553-46bc-bb1f-0c684e3ba4a2",
+			"name": "Walgreens Co. #19646",
+			"address1": "7115 E W.T. Harris Blvd",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28227",
+			"phone": "704-567-0017",
+			"distance": 5.47,
+			"lat": 35.222976,
+			"long": -80.72417,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "49e5a9cc-6d57-4875-b0f0-c811c9c382d6",
+			"name": "Harris Teeter Pharmacy #09700122",
+			"address1": "5810 Highland Shoppes Dr",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28269",
+			"phone": "(704) 875-7128",
+			"distance": 5.61,
+			"lat": 35.371494,
+			"long": -80.782834,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "a633c059-0c5a-420a-b31c-90b59ffb006c",
+			"name": "Walmart Inc #10-6586",
+			"address1": "3905 Concord Pkwy S",
+
+			"city": "Concord",
+			"state": "NC",
+			"zip": "28027",
+			"phone": "7047066045",
+			"distance": 5.8,
+			"lat": 35.366558,
+			"long": -80.665898,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "2fa9cab8-7ea1-4dcc-b86a-1f2a9d21e5c1",
+			"name": "CVS Pharmacy, Inc. #05583",
+			"address1": "2939 The Plaza",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28205",
+			"phone": "(704) 333-0168",
+			"distance": 5.88,
+			"lat": 35.238013,
+			"long": -80.800446,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "69e819a8-35c7-47e3-8782-2f342a94b761",
+			"name": "Al Nour Community Center (Pfizer)  7/23",
+			"address1": "8310 Harrisburg Rd",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28215",
+			"phone": "704-755-5656",
+			"distance": 5.96,
+			"lat": 35.22626,
+			"long": -80.680926,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "2f82e2b3-98e0-4a65-a423-403e12d849ae",
+			"name": "Walgreens Co. #10253",
+			"address1": "10 Pitts School Rd NW",
+
+			"city": "Concord",
+			"state": "NC",
+			"zip": "28027",
+			"phone": "704-795-0091",
+			"distance": 5.97,
+			"lat": 35.369236,
+			"long": -80.665377,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "16b3a3ed-e957-4c2a-bf62-b9eed8877761",
+			"name": "Publix Super Markets Inc. #1509",
+			"address1": "10110 Benfield Rd",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28269",
+			"phone": "(704) 992-6955",
+			"distance": 5.97,
+			"lat": 35.374821,
+			"long": -80.788547,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "dd890990-59c0-4ba3-9538-4a83ad1da291",
+			"name": "Walls Memorial A.M.E. Zion Church",
+			"address1": "2722 Bancroft St",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28206",
+			"phone": "919-390-2550",
+			"distance": 6.06,
+			"lat": 35.254824,
+			"long": -80.822251,
+
+			"matching_inventory": [
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "8e8e94a8-97db-4817-9d35-addf2f5df0e5",
+			"name": "First Mt. Calvary Baptist Church",
+			"address1": "209 W 28th St",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28206",
+			"phone": "609-284-7702",
+			"distance": 6.21,
+			"lat": 35.24823,
+			"long": -80.820031,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "e3416bdc-5b24-430e-bc45-114195248fb8",
+			"name": "CVS Pharmacy, Inc. #03540",
+			"address1": "4391 Central Ave",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28205",
+			"phone": "(704) 535-5280",
+			"distance": 6.43,
+			"lat": 35.214642,
+			"long": -80.771408,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "abe425c6-f036-45e8-91a5-cb4b58bde935",
+			"name": "Lempira Restaurant",
+			"address1": "4439 Central Ave #241",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28205",
+			"phone": "704-228-1522",
+			"distance": 6.44,
+			"lat": 35.213926,
+			"long": -80.769287,
+
+			"minimum_age": {
+				"years": 5,
+				"months": 0
+			},
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "d2576ee3-25d0-47cd-8655-4489c6d4019b",
+			"name": "Healthy Living Pharmacy",
+			"address1": "3717 N Sharon Amity Rd UNIT C",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28205",
+			"phone": "980-819-5648",
+			"distance": 6.44,
+			"lat": 35.211069,
+			"long": -80.757383,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "b03fc940-85a7-4366-9bd3-ccfe2819a6be",
+			"name": "Walgreens Co. #15392",
+			"address1": "4625 Hylas Ln",
+
+			"city": "Huntersville",
+			"state": "NC",
+			"zip": "28078",
+			"phone": "704-912-2037",
+			"distance": 6.53,
+			"lat": 35.385053,
+			"long": -80.786816,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "d1c959e9-0d76-4d53-838b-bee66075b0ae",
+			"name": "Walmart Inc #10-1821",
+			"address1": "9101 Albemarle Rd",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28227",
+			"phone": "7045316588",
+			"distance": 6.58,
+			"lat": 35.213331,
+			"long": -80.689038,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "7eaa45d3-aedd-4d62-a1d3-58a725fe3488",
+			"name": "StarMed Family & Urgent Care  Eastland",
+			"address1": "5344 Central Ave",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28212",
+			"phone": "980-445-9818",
+			"distance": 6.64,
+			"lat": 35.207701,
+			"long": -80.754417,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "c13f589c-67d2-4eac-8602-b4c78d6f4825",
+			"name": "DD Pharmacy #3470630",
+			"address1": "2903 Central Ave Suite A",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28205",
+			"phone": "(980) 272-6988",
+			"distance": 6.78,
+			"lat": 35.218616,
+			"long": -80.794994,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "60e1dae7-bc23-4833-976a-5af004623b70",
+			"name": "CVS Pharmacy, Inc. #16916",
+			"address1": "8830 Albemarle Rd",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28227",
+			"phone": "(704) 264-0079",
+			"distance": 6.78,
+			"lat": 35.208652,
+			"long": -80.694584,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "ad47aa5d-6002-48b9-8d47-51d231ae3b32",
+			"name": "St. Paul Baptist Church Ray of Hope Gymnasium  8/7/21 (Pfizer)",
+			"address1": "1401 Allen St",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28205",
+			"phone": "704-755-5656",
+			"distance": 6.93,
+			"lat": 35.230488,
+			"long": -80.817839,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "a9a884c9-796c-4cfc-a278-d3e94ea060df",
+			"name": "Walgreens Co. #4548",
+			"address1": "6848 Albemarle Rd",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28212",
+			"phone": "704-535-8019",
+			"distance": 6.93,
+			"lat": 35.201666,
+			"long": -80.726552,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "92222e65-896f-4d88-8d44-9ea90f216e58",
+			"name": "Walmart Inc #10-4148",
+			"address1": "8800 E W.T. Harris Blvd",
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28216",
+			"phone": "7049161891",
+			"distance": 7.0,
+			"lat": 35.200711,
+			"long": -80.727419,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				},
+				{
+					"guid": "784db609-dc1f-45a5-bad6-8db02e79d44f",
+					"key": "j&j_janssen_covid_19_vaccine"
+				}
+			]
+		},
+		{
+			"guid": "5be272c0-f632-4c56-a92d-b498e5d3c3be",
+			"name": "ProMed  Charlotte",
+			"address1": "7004 Smith Corners Blvd Ste A",
+
+			"city": "Charlotte",
+			"state": "NC",
+			"zip": "28269",
+			"phone": "704-688-9650",
+			"distance": 7.07,
+			"lat": 35.349105,
+			"long": -80.843012,
+
+			"matching_inventory": [
+				{
+					"guid": "a84fb9ed-deb4-461c-b785-e17c782ef88b",
+					"key": "pfizer_covid_19_vaccine"
+				},
+				{
+					"guid": "779bfe52-0dd8-4023-a183-457eb100fccc",
+					"key": "moderna_covid_19_vaccine"
+				}
+			]
+		}
+	],
+	"current_page": 1,
+	"total_pages": 1
+}

@@ -1,6 +1,6 @@
 import { Text, Card, Link, Spacer, Button, Input } from "@geist-ui/core";
 
-export default function Login() {
+export default function login() {
 	return (
 		<div className="center">
 			<Card width="330px" shadow>
