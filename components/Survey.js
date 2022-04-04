@@ -183,7 +183,7 @@ export default function Survey() {
 				</Modal.Subtitle>
 				<Modal.Content>
 					<p>
-						Should symptoms worsen or pain increase, do not hesiatte to contact
+						Should symptoms worsen or pain increase, do not hesitate to contact
 						your primary health care provider for more information and help.
 					</p>
 				</Modal.Content>
