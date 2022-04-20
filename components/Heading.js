@@ -49,6 +49,9 @@ export default function Heading() {
 						<Link href="/survey">
 							<a onClick={closeDrawer}>Survey</a>
 						</Link>
+						<Link href="/survey2">
+							<a onClick={closeDrawer}>Test Survey</a>
+						</Link>
 						<Link href="/county">
 							<a onClick={closeDrawer}>County Risk Viewer</a>
 						</Link>
