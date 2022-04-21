@@ -8,10 +8,17 @@ import {
 	Activity,
 } from "@geist-ui/icons";
 import Link from "next/link";
-
+import { useTheme } from "@geist-ui/core";
+import Logo from "../components/Logo";
 export default function Home() {
+	const { palette } = useTheme();
+
 	return (
 		<div className="home">
+			<div className="dash-header">
+				<Logo width="50" height="50" color={palette.success} />
+				<div className="drawer-title">Covid Community Care</div>
+			</div>
 			<div className="title">
 				<h2>Dashboard</h2>
 			</div>
@@ -56,10 +63,16 @@ export default function Home() {
 
 			<style jsx>
 				{`
+					.dash-header {
+						margin-top: -1.5rem;
+						display: flex;
+						flex-direction: column;
+						justify-content: space-between;
+						align-items: center;
+					}
 					.title {
 						width: 100%;
 						text-align: center;
-						margin-top: -1.5rem;
 						padding-bottom: 2rem;
 					}
 					.home {
